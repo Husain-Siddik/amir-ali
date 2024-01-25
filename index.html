@@ -35,9 +35,9 @@
   </style>
 </head>
 
-<body class="">
-  <header class="container font-outfit pl-4 lg:pl-13  mx-auto">
-    <nav class="py-6">
+<body class=" relative">
+  <header class="container  font-outfit pl-4 lg:pl-13  mx-auto">
+    <nav class="py-6 ">
       <!-- navigation for testing -->
       <div class="navbar bg-base-100">
         <div class="navbar-start">
@@ -49,14 +49,14 @@
               </svg>
             </div>
             <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-              <li><a>Home</a></li>
+              <li><a href="home">Home</a></li>
               <li>
                 <a>Social</a>
                 <ul class="p-2">
-                  <li><a>FACEBOOK</a></li>
-                  <li><a>INSTAGRAM</a></li>
-                  <li><a>TWITTER</a></li>
-                  <li><a>WHATSAPP</a></li>
+                  <li><a href="" target="_blank">FACEBOOK</a></li>
+                  <li><a href="" target="_blank">INSTAGRAM</a></li>
+                  <li><a href="" target="_blank">TWITTER</a></li>
+                  <li class="hidden"><a href="" target="_blank">WHATSAPP</a></li>
                 </ul>
               </li>
             </ul>
@@ -65,13 +65,14 @@
         </div>
         <div class="navbar-center hidden lg:flex">
           <ul class="menu menu-horizontal px-2 space-x-4">
-            <li><a>HOME</a></li>
+            <li><a href="#home">HOME</a></li>
             <li>
               <details>
                 <summary>Social</summary>
                 <ul class="p-2">
-                  <li><a>FACEBOOK</a></li>
-                  <li class=""><a>INSTAGRAM</a></li>
+                  <li><a href="" target="_blank">FACEBOOK</a></li>
+                  <li><a href="" target="_blank">INSTAGRAM</a></li>
+                  <li><a href="" target="_blank">TWITTER</a></li>
                   
                  
                 </ul>
@@ -89,9 +90,9 @@
 
   </header>
 
-  <main class=" container font-outfit pl-4 lg:pl-13  mx-auto">
+  <main class=" container font-outfit pl-4 lg:pl-13  mx-auto ">
     <!-- first  -->
-    <section class="w-full container mx-auto" >
+    <section class="w-full container mx-auto" id="home" >
 
       <div class="container bg-base-200">
         <div class="flex flex-col lg:flex-row-reverse  justify-around">
@@ -200,7 +201,7 @@
         <a href="https://www.facebook.com/mdamir.ali.1884 "  target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill-current"><path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"></path></svg></a>
 
         <!-- whatsapp  new added -->
-        <a class="w-6 h-6" href=""><i class="fa-brands fa-whatsapp fa-2x"></i> </a>
+        <a class="w-6 h-6 hidden" href=""><i class="fa-brands fa-whatsapp fa-2x"></i> </a>
        
       </div>
     </nav>
